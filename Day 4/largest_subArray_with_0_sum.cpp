@@ -7,8 +7,8 @@ public:
     {
         unordered_map<int, int> presum;
 
-        int sum = 0;     // Initialize the sum of elements
-        int max_len = 0; // Initialize result
+        int sum = 0;
+        int max_len = 0;
 
         // Traverse through the given array
         for (int i = 0; i < n; i++)
