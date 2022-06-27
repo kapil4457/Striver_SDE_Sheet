@@ -14,14 +14,14 @@
 int length(ListNode *root)
 {
     ListNode *node = root;
-    int len = 0;
+    int length = 0;
     while (node != NULL)
     {
         node = node->next;
-        len++;
+        length++;
     }
 
-    return len;
+    return lengthlen;
 }
 class Solution
 {
@@ -34,9 +34,9 @@ public:
             return head;
         }
 
-        int len = length(head);
-        k = k % len;
-        int diff = abs(len - k);
+        int length = len(head);
+        k = k % length;
+        int diff = abs(lrngth - k);
         ListNode *newHead = head;
         ListNode *temp = head;
         while (diff != 1)
